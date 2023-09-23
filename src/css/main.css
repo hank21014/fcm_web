@@ -1,0 +1,18 @@
+@import "./variables.css";
+@import "./app.css";
+@import "./app-bar.css";
+@import "./utility.css";
+@import "./form.css";
+@import "./card.css";
+@import "./switch.css";
+@import "./custom.css";
+
+html {
+  font-family: "system-ui";
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}

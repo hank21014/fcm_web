@@ -1,0 +1,32 @@
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 10px 0;
+}
+
+label {
+  font-weight: bold;
+}
+
+textarea {
+  resize: none;
+}
+
+textarea,
+input {
+  outline: none;
+  border: none;
+  border: var(--form-control-border-width) var(--form-control-border-color)
+    solid;
+  padding: 5px;
+  border-radius: var(--border-radius);
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+textarea:focus,
+input:focus {
+  outline: var(--form-control-hover-outline-color)
+    var(--form-control-hover-outline-width) solid;
+}

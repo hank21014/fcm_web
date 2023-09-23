@@ -1,0 +1,27 @@
+.app > .app-bar {
+  top: 0;
+  position: sticky;
+  background-color: var(--primary-color);
+  display: flex;
+  padding: 5px 10px;
+  box-shadow: 0px 1px 2px 0px rgb(62, 62, 62);
+  color: white;
+}
+
+.app > .app-bar > .app-bar-title {
+  font-size: 1.5rem;
+  font-weight: bolder;
+  white-space: nowrap;
+}
+
+.app > .app-bar > .app-bar-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app > .app-bar > .app-bar-actions {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}

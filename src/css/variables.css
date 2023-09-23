@@ -1,0 +1,19 @@
+.app {
+  --primary-color: rgb(0, 129, 194);
+  --secondary-color: white;
+  --text-color: rgb(57, 57, 57);
+  --bg-color: white;
+  --form-control-border-color: #979797;
+  --form-control-border-width: 1.7px;
+  --form-control-hover-outline-color: #d5d5d5;
+  --form-control-hover-outline-width: 2px;
+  --border-radius: 2px;
+  --form-control-bg-color: white;
+}
+.app[data-theme="dark"] {
+  --primary-color: rgb(75, 75, 75);
+  --secondary-color: rgb(94, 94, 94);
+  --text-color: white;
+  --bg-color: rgb(51, 51, 51);
+  --form-control-bg-color: rgb(163, 163, 163);
+}
